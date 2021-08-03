@@ -20,8 +20,7 @@ a{
     color: #fff;
     padding: 10px 15px;
     border-radius: 25px;
-    text-transform: uppercase;
-    display: inline-block; 
+    display: inline-block;
 }
 .back-btn a{
     font-family: 'Poppins', sans-serif;
@@ -30,8 +29,7 @@ a{
     color: #fff;
     padding: 10px 15px;
     border-radius: 25px;
-    text-transform: uppercase;  
-    display: inline-block; 
+    display: inline-block;
 }
 .logout-btn a{
     width: 45px;
@@ -77,9 +75,8 @@ a{
 .about-text-title h4{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #595959;
-    text-transform: uppercase;
     margin-bottom: 0;
 }
 .profile-picture-edit a{
@@ -116,11 +113,10 @@ a{
 .user-name h3{
     position: absolute;
     top: 72px;
-    left: 150px;
+    left: 140px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    font-weight: 500;
-    text-transform: uppercase;
+    font-weight: 600;
     color: #fff;
     text-align: center;
 }
@@ -129,7 +125,6 @@ a{
     font-weight: 600;
     font-size: 20px;
     color: #2c2a25;
-    text-transform: uppercase;
 }
 .quick-links a{
     display: block;
@@ -155,7 +150,6 @@ a{
     font-weight: 500;
     font-size: 18px;
     color: #2c2a25;
-    text-transform: uppercase;
 }
 .news .blue{
     border-color: #00d6de;
@@ -198,10 +192,9 @@ a{
 }
 .helpdask h5{
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 18px;
     color: #2c2a25;
-    text-transform: uppercase;
 }
 .helpdask-details span{
     font-family: 'Poppins', sans-serif;
@@ -222,10 +215,9 @@ a{
 
 .modules-headline h4{
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     color: #2c2a25;
-    text-transform: uppercase;
 }
 .module-box{
     border-radius: 20px;
