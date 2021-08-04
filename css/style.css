@@ -79,22 +79,6 @@ a{
     color: #595959;
     margin-bottom: 0;
 }
-.profile-picture-edit a{
-    position: absolute;
-    top: 112px;
-    left: 52px;
-    color: #3aae2a;
-    font-size: 12px;
-}
-.cover-picture-edit{
-    text-align: right;
-    padding-right: 15px;
-    padding-top: 5px;
-}
-.cover-picture-edit a{
-    color: #fff;
-    font-size: 12px;
-}
 .profile-logo{
     position: absolute;
     display: block;
@@ -335,9 +319,6 @@ a{
     .sidebar-body{
         width: 60% !important;
     }
-    .cover-picture-edit a{
-        left: 375px;
-    }
     .profile-logo{
         left: 350px;
     }
@@ -360,9 +341,6 @@ a{
     /* CSS */
     .sidebar-body{
         width: 43% !important;
-    }
-    .cover-picture-edit a{
-        left: 355px;
     }
     .profile-logo{
         top: 102px;
@@ -424,9 +402,6 @@ a{
     }
     .main-body-content{
         flex-direction: column-reverse;
-    }
-    .cover-picture-edit a{
-        left: 330px;
     }
     .profile-logo{
         top: 104px;
