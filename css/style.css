@@ -285,6 +285,42 @@ a{
 .inner-module-box .module-text .arabic{
     color: #58595b;
 }
+.horiz-inner-cards .col-md-6{
+    width: 48%;
+    margin: 0 5px;
+    padding: 0;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px #e7e7e7;
+}
+.horiz-inner-module-box .module-icon{
+    width: 35%;
+    background: #04a6e1;
+    border: 1px solid #04a6e1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+}
+.horiz-inner-module-box .module-icon img{
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.horiz-inner-module-box .module-text{
+    width: 65%;
+    background: #fff;
+    border: 1px solid #04a6e1;
+    border-radius: 0 20px 20px 0;
+    padding: 30px 60px;
+    text-align: center;
+}
+.horiz-inner-module-box .module-text .english, .horiz-inner-module-box .module-text .arabic{
+    color: #58595b;
+    text-align: left;
+}
 /* RESPONSIVE CSS HERE */
 /* 
   ##Device = Desktops
@@ -328,6 +364,9 @@ a{
     .modules-text .col-md-4{
         width: 100% !important;
     }
+    .horiz-inner-cards .col-md-6{
+        width: 100%;
+    }
     
 }
   
@@ -360,6 +399,9 @@ a{
     }
     .inner-cards .col-md-4{
         width: 47% !important;
+    }
+    .horiz-inner-cards .col-md-6{
+        width: 100%;
     }
     
 }
@@ -425,6 +467,11 @@ a{
     }
     .inner-cards .col-md-4{
         width: 47%;
+    }
+    .horiz-inner-cards .col-md-6{
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
 }
