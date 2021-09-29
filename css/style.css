@@ -321,6 +321,23 @@ a{
     color: #58595b;
     text-align: left;
 }
+.announcement-links .announcement span{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.announcement-links .announcement a{
+    color: #04a6e1 !important;
+    display: inline-block;
+    color: #2c2a25;
+    margin: 20px 0;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-decoration: underline;
+}
+.announcement-links .announcement a:hover{
+    background: none;
+}
 /* RESPONSIVE CSS HERE */
 /* 
   ##Device = Desktops
