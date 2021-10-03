@@ -317,6 +317,11 @@ a{
     padding: 30px 60px;
     text-align: center;
 }
+.horiz-inner-module-box:hover .module-icon{
+    background: #3aae2a;
+    border: 1px solid #3aae2a;
+    transition: 0.5s ease-in-out;
+}
 .horiz-inner-module-box .module-text .english, .horiz-inner-module-box .module-text .arabic{
     color: #58595b;
     text-align: left;
